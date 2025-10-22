@@ -17,7 +17,6 @@
             {{ session('alert') }}
         </div>
     @endif
-    
     <header class="bg-gray-800 p-8">
         <div class="flex justify-between">
             <a href="{{ route('home') }}" class="font-bold text-white hover:text-gray-500">Сайт</a>
@@ -34,7 +33,6 @@
             </div>
         </div>
     </header>
-
     <main class="p-4">
         {{ $slot }}
     </main>
